@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: 100vw;
   height: 100px;
   padding: 0px 20px 0px 20px;
   display: flex;
@@ -55,7 +55,7 @@ h1 {
   padding-top: 100px;
   position: absolute;
   margin: 0 auto;
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
@@ -67,12 +67,12 @@ h1 {
 }
 
 .header-img {
-  width: 100%;
+  width: 100vw;
   margin: 0px;
 }
 .secondary {
   display: flex;
-  width: 100%;
+  width: 100vw;
 }
 .container-text {
   width: 50vw;
@@ -94,7 +94,7 @@ h3 {
   font-weight: 700;
   font-family: "Fraunces", serif;
 }
-.link {
+.learn {
   text-transform: uppercase;
   font-family: "Fraunces", serif;
   background-color: #faf2cb;
@@ -103,11 +103,12 @@ h3 {
   font-weight: 700;
 }
 
-.link:hover {
+.learn:hover {
   text-decoration: underline #fc7968 5px;
 }
 .imagen {
   width: 50vw;
+  height: 50%;
 }
 
 .imagen-container {
@@ -117,7 +118,7 @@ h3 {
 .grafic {
   position: absolute;
   width: 400px;
-  margin: 450px 100px 100px 12vw;
+  margin: 350px 100px 100px 12vw;
   text-align: center;
   line-height: 200%;
 }
@@ -130,7 +131,7 @@ h3 {
 .orange {
   position: absolute;
   width: 400px;
-  margin: 450px 100px 100px 65vw;
+  margin: 350px 100px 100px 65vw;
   text-align: center;
   line-height: 200%;
 }
@@ -141,23 +142,23 @@ h3 {
 }
 
 .contentainer_testimonials {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
 }
 
 .secondary_testimonials {
-  width: 80%;
-  height: 400px;
+  width: 80vw;
+  height: 600px;
+  align-items: center;
   display: flex;
 }
 
 .contentainer_testimonials h3 {
-  width: 100%;
-  padding: 100px 0px 80px 0px;
+  width: 100vw;
+  padding-top: 100px;
   text-align: center;
   color: #a6a7a9;
   text-transform: uppercase;
@@ -175,38 +176,36 @@ h3 {
 
 .comment {
   line-height: 150%;
-  width: 350px;
-  margin: 0px 20px 0px 20px;
+  width: 25vw;
+  padding: 20px 20px 20px 20px;
 }
 
 .name {
   font-weight: bold;
   font-size: 20px;
   font-family: "Fraunces", serif;
-  padding-top: 50px;
 }
 
 .titulo {
   font-size: 16px;
   color: #a6a7a9;
-  padding-top: 10px;
 }
 
 .container_img {
-  /* width: 100vw; */
   display: flex;
 }
 
 .img {
-  width: 25%;
+  width: 25vw;
+  height: 50%;
 }
 
 .footer {
-  width: 100%;
+  width: 100vw;
   height: 400px;
   background-color: #90d4c5;
   text-align: center;
-  padding: 100px 0px 100px 0px;
+  padding: 70px 0px 50px 0px;
   color: #498d7e;
   font-weight: 700;
 }
@@ -231,9 +230,6 @@ h3 {
 .icons {
   padding: 0px 10px 0px 10px;
 }
-svg:hover {
-  color: white;
-}
 
 .sunny {
   font-family: "Fraunces", serif;
@@ -243,11 +239,11 @@ svg:hover {
 
 .attribution {
   background-color: #90d4c5;
+  width: 100vw;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
-a:visited {
-  color: white;
-}
 a {
   color: #498d7e;
 }
